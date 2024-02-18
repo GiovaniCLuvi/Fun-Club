@@ -1,0 +1,295 @@
+body {
+    background: linear-gradient(#efd005, #8004b2);
+  }
+
+.servcarda {
+  background-image: url(main/imagens/back-festa.jpg);
+  background-size: contain;
+  background-attachment: none;
+  height: 400px;
+  width: 99vw;
+  margin: -8px 0px 0px -8px;
+  width: 99vw;
+  height: 300px;
+  margin-left: -8px;
+  display: inline-flex;
+  justify-content: center;}
+
+#serv1 > img{
+  width: 100px;
+  height: 100px;
+}
+
+.card {
+  border: 1px solid black;
+  width: 200px;
+  color: aliceblue;
+}
+#serv2 > img{
+  width: 100px;
+  height: 100px;
+}
+#serv3 > img{
+  width: 100px;
+  height: 100px;
+}
+
+nav {
+  background-color: #b5e418;
+}
+
+nav > a{
+  text-decoration: none;
+  float: right;
+  font-size: 1.3em;
+  margin: 15px 30px 10px 10px;
+  color: black;
+}
+
+#logo {
+  height: 50px;
+  margin-left: 50px;
+}
+
+header {
+  background-image: linear-gradient(to left, transparent 0%, #680f9f 120%), url(main/imagens/back.jpg);
+  background-size: contain;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  height: 400px;
+  width: 99vw;
+  margin: -8px 0px 0px -8px;
+}
+
+.itemserv {
+  margin: 30px;
+  text-align: center;
+  height: 260px;
+  width: 250px;
+  background-color: rgba(255, 255, 255, 0.865);
+}
+  
+
+.slides{
+  width: 300%;
+  height: 270px;
+  display: flex;
+}
+.slides input{
+  display: none;
+}
+.slide{
+  width: 350px;
+  position: relative;
+  transition: 1.5s;
+}
+.slide img{
+  width: auto;
+}
+
+#radio1:checked ~ .first{
+  margin-left: 0;
+}
+#radio2:checked ~ .first{
+  margin-left: -7%;
+}
+#radio3:checked ~ .first{
+  margin-left: -12%;
+}
+#radio4:checked ~ .first{
+  margin-left: -17%;
+}
+#radio5:checked ~ .first{
+  margin-left: -22%;
+}
+#radio6:checked ~ .first{
+  margin-left: -27%;
+}
+#radio7:checked ~ .first{
+  margin-left: -32%;
+}
+#radio8:checked ~ .first{
+  margin-left: -37%;
+}
+#radio9:checked ~ .first{
+  margin-left: -42%;
+}
+#radio10:checked ~ .first{
+  margin-left: -47%;
+}
+
+#videosec {
+  height: 500px;
+  background: linear-gradient(to top, rgb(243, 243, 7), rgb(249, 249, 139));
+}
+
+.slider{
+  overflow: hidden;
+}
+
+.aaa {
+    background-color: #000000;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+.coment {
+  background-color: #3e089599;
+  width: 300px;
+  height: 75px;
+  margin: 20px;
+  color: white;
+  padding: 20px 20px 60px 20px;
+  font-size: 15px;
+  display: inline-flex;
+  justify-content: center;
+  text-align: left;
+}
+
+#carda {
+  background-image: url(main/imagens/back-carda.jpg);
+  background-size: contain;
+  background-attachment: none;
+  height: 400px;
+  width: 99vw;
+  margin: -8px 0px 0px -8px;
+}
+
+#videop {
+  margin: 70px auto;
+  display: block;
+}
+
+.coment > p {
+  margin: 0;
+}
+
+.dep {
+  height: auto;
+  width: 99vw;
+  margin-left: -8px;
+  border: 0;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+#titdep {
+  background-color: #114011;
+  color: white;
+}
+
+
+
+
+
+.secao4 {
+  margin: 0 auto;
+  font-family: Helvetica, sans-serif;
+  width: 1000px;
+}
+
+.secao4-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+  text-align: center;
+}
+
+.secao4-div-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: calc(100% / 4 - 60px);
+  margin: 10px;
+  padding: 20px;
+  box-shadow: 2px 2px 16px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  background-color: white;
+  transition: all 0.5s ease;
+}
+
+.secao4-div-card:hover {
+  transform: scale(1.1);
+  z-index: 1;
+}
+h2 {
+  text-align: center;
+}
+
+.secao4-div-card img {
+  width: 100%;
+  height: 180px;
+}
+
+.secao4-div-card h3 {
+  margin-bottom: 0px;
+}
+.card-button{
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+}
+
+
+.card-carda {
+  margin: 30px;
+  text-align: center;
+  height: 260px;
+  width: 250px;
+  background-color: #efd005e0;
+}
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 50px 0;
+}
+
+footer h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+footer p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer li {
+  margin-bottom: 10px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #ccc;
+}
+
+.list-inline {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.list-inline-item {
+  display: inline-block;
+  margin: 0
