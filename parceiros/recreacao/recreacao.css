@@ -1,0 +1,241 @@
+@font-face {
+    font-family: 'titulo';
+    src: url('/assets/font/Oswald-VariableFont_wght.ttf');
+  }
+
+body {
+    background-image: url(/assets/imagens/550269057536.jpg);
+    height: 99vw;
+    width: 99vw;
+    background-size: contain;
+    font-family: 'titulo';
+    font-weight: lighter;
+    font-style: normal;
+    text-decoration: none;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+nav {
+    background-color: #b5e418;
+    margin: -10px;
+}
+
+.bar {
+    text-decoration: none;
+    float: right;
+    font-size: 1.3em;
+    margin: 10px 30px 10px 10px;
+    color: black;
+    transition: all 0.2s ease;
+}
+
+.bar:hover{
+    background-color: #8eb50c;
+    padding: 10px;
+    margin: 0px 20px 0px 0px;
+    transform: scale(1.1);
+    z-index: 1;
+  }
+
+#logo {
+    height: 50px;
+    margin-left: 50px;
+}
+
+.parce {
+    height: auto;
+    width: 99vw;
+    margin-left: -8px;
+    border: 0;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+#titparc {
+    background-color: #ffffff;
+    color: black;
+    font-size: 3em;
+    margin-bottom: 50px;
+    margin-top: -60px;
+}
+
+.body-card {
+    width: 200px;
+    height: 300px;
+    font-size: 15px;
+    display: inline-flex;
+    justify-content: center;
+    text-align: left;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 2px 2px 16px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    transition: all 0.2s ease;
+    flex-direction: column;
+    background-color: white;
+
+}
+
+.body-card > p {
+    margin: 0;
+}
+
+.body-card img {
+    width: 100%;
+    height: 200px;
+}
+
+.body-card:hover {
+    transform: scale(1.02);
+    z-index: 1;    
+    transition: all 0.2s ease;
+}
+
+.card-button > button{
+    border: 1px solid blue;
+    border-radius: 5px;
+    background-color: blue;
+    padding: 10px 20px;
+    color: white;
+    width: 100%;
+}
+
+.card-button > button:hover{
+    border: 1px solid blue;
+    border-radius: 5px;
+    background-color: white;
+    color: blue;
+    z-index: 1;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+
+.body-card > a {
+    text-align: center;
+}
+
+
+h3 {
+    text-align: center;
+    font-weight: 400;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    margin: 0px -4px -16px -7.7px;
+    width: 99vw;
+    padding-top: 20px;
+  }
+  
+  
+  footer h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  
+  footer hr {
+    width: 99vw;
+  }
+  
+  footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  footer li {
+    margin-bottom: 10px;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    color: #ccc;
+  }
+  
+  .list-inline {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: grid;
+  }
+  
+  #icon-foot {
+    width: 50px;
+  }
+  
+  #logofoot {
+    width: 100px;
+  }
+  
+  #col-quick {
+    width: 150px;
+    margin-left: 40px;
+    margin-right: 650px;
+  }
+  
+  #cred {
+    text-align: center;
+  }
+  
+  #cred > p {
+    margin: 5px;
+  }
+  
+  .icon-foot {
+    display: inline-flex;
+  }
+  
+  .icon-foot > img {
+    width: 35px;
+    margin-left: -14px;
+  }
+  
+  .col-icon {
+    display: grid;
+    margin: 0px 0px 0px 15px;
+    font-size: 10px;
+  }
+  .col-icon > h4{
+    font-size: 18px;
+  }
+  .col-icon > p{
+    font-size: 10px;
+  }
+  
+  .div-foot {
+    display: flex;
+    margin: 0px;
+  }
+  
+  iframe {
+    width: 400px;
+    height: 250px;
+  }
+  
+  .mapouter{
+    position: relative;
+    text-align: right;
+  }
+  
+  .gmap_canvas{
+    overflow: hidden;
+    background: none!important;
+    height: 560px;
+    width: 100vw;
+  }

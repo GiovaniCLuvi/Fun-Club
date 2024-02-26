@@ -1,0 +1,296 @@
+*{
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+@font-face {
+  font-family: 'titulo';
+  src: url('/assets/font/Oswald-VariableFont_wght.ttf');
+}
+
+body {
+  background-image: url(/assets/imagens/back/back.jpg);
+  height: 100vw;
+  width: 100vw;
+  background-size: contain;
+  font-family: 'titulo';
+  font-weight: lighter;
+  font-style: normal;
+  text-decoration: none;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+nav {
+  background-color: #b5e418;
+}
+
+.bar {
+  text-decoration: none;
+  float: right;
+  font-size: 1.3em;
+  margin: 10px 30px 10px 10px;
+  color: black;
+  transition: all 0.2s ease;
+}
+
+.bar:hover{
+  background-color: #8eb50c;
+  padding: 10.8px;
+  margin: 0px 20px 0px 0px;
+  transform: scale(1.1);
+  z-index: 1;
+}
+
+#logo {
+  height: 50px;
+  margin-left: 50px;
+}
+
+ #princ > img {
+  height: 550px;
+  width: 550px;
+}
+
+
+.pics{
+  display: inline-block;
+  height: 167px;
+  width: 250px;
+  border-radius: 15px;
+  border: 3px solid rgb(236, 236, 236);
+  box-shadow: 5px 5px 15px #041a1771;
+  margin-left: 10px;
+  transition: all 0.3s ease-out;
+}
+
+.pics:hover {
+  transform: translateY(-5px);
+}
+
+.menu{
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+  .menu { display: block; }
+  .pics {height: 234px; width: 350px;}
+}
+  @media screen and (max-width: 750px) {
+    .menu { display: grid; justify-content: center; align-items: center;}
+    .pics {height: 234px; width: 350px;}
+}
+@media screen and (min-width: 2000px) {
+  .pics {height: 140px; width: 210px;}
+  #sobrepics {display: inline-flex;margin-left: 13%;}
+}
+
+h3 {
+  margin-top: 150px;
+  color: green;
+  font-size: 2em;
+}
+
+#mot1 {
+  margin-top: -80px;
+}
+#mot2 {
+  margin-top: -150px;
+}
+
+#princ {
+  display: inline-flex; 
+  text-align: center;
+  justify-content: center;
+  background-color: aliceblue;
+  height: 94vh;
+}
+
+#col-text {
+  display: grid;
+  width: calc(100% / 3 - 60px)
+}
+
+#sobrepics {
+  margin: 150px;
+}
+
+#textimg {
+  text-align: center;
+  margin-bottom: 30px;
+  color: purple;
+  font-size: 2em;
+}
+
+#sec-contato > div > h3 {
+  color: yellow;
+  margin: 0px;
+}
+
+  #encontro {
+    margin: 0;
+  }
+
+.rede > img{
+  height: 100px;
+}
+
+#ctt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+#esp-ctt {
+  margin-right: 200px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+li > p{
+  display: inline;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+#test {
+  display: inline-flex;
+}
+
+#sec-contato{
+  text-align: center;
+  justify-content: center;
+}
+
+#mumu-ctt {
+  height: 500px;
+  float: right;
+  margin-right: -100px;
+  margin-top: 50px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  width: 100vw;
+  padding-top: 20px;
+}
+
+
+footer h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+footer hr {
+  width: 100vw;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer li {
+  margin-bottom: 10px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #ccc;
+}
+
+.list-inline {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: grid;
+}
+
+#logofoot {
+  width: 100px;
+}
+
+#col-quick {
+  width: 150px;
+  margin-left: 40px;
+  margin-right: 650px;
+}
+
+#cred {
+  text-align: center;
+}
+
+#cred > p {
+  margin: 5px;
+}
+
+.icon-foot {
+  display: inline-flex;
+  margin-bottom: 10px;
+}
+
+.icon-foot > a {
+  width: 130px;
+}
+
+.icon-foot > img {
+  width: 50px;
+  margin-left: -14px;
+}
+
+.col-icon {
+  display: grid;
+  margin-left: 15px;
+  font-size: 10px;
+}
+.col-icon > h4{
+  font-size: 18px;
+}
+.col-icon > p{
+  font-size: 10px;
+}
+
+.div-foot {
+  display: flex;
+  margin: 0px;
+}
+
+iframe {
+  width: 400px;
+  height: 250px;
+}
+
+.mapouter{
+  position: relative;
+  text-align: right;
+}
+
+.gmap_canvas{
+  overflow: hidden;
+  background: none!important;
+  height: 560px;
+  width: 100vw;
+  align-items: center;
+}
