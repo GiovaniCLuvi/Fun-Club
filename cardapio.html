@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fun Club - Home</title>
-    <link rel="stylesheet" href="sobre.css">
+    <link rel="stylesheet" href="cardapio.css">
 </head>
 <body>
 <header>
@@ -14,43 +14,74 @@
         <a href="" class="bar">Fun em casa</a>
         <a href="" class="bar">Temas</a>
         <a href="" class="bar">Espaço</a>
-        <a href="" class="bar">Cardápio</a>
+        <a href="#" class="bar">Cardápio</a>
         <a href="sobre.html" class="bar">Sobre Nós</a>
         <a href="/home.html" class="bar">Home</a>
     </nav>
 </header>
-    <main>
-        <section class="comeco">
-            <div id="img-comeco"><img src="/assets/imagens/familia.png" alt=""></div>
-            <div id="baboseira">
-                <h3>Nossa História</h3>
-                <p>No Fun Club, somos uma família apaixonada por transformar momentos especiais em memórias duradouras. Combinando talentos únicos e uma energia contagiante, cada membro da família Falcomer contribui para criar festas cheias de diversão e magia. Desde o entusiasmo do pai até o olhar cuidadoso da mãe, e com a inspiração dos nossos próprios filhos, estamos aqui para fazer do seu evento um verdadeiro conto de fadas. Junte-se a nós e deixe-nos criar juntos momentos inesquecíveis para você e sua família!</p>
-            </div>
-        </section>
-        <section>
-            <div id="sobrepics">
-                <h2 id="textimg">Equipe</h2>
-                <div class="menu">
-                    <img class="pics" src="/assets/imagens/equipe.png" alt="">
-                    <img class="pics" src="/assets/imagens/equipe.png" alt="">
-                    <img class="pics" src="/assets/imagens/equipe.png" alt="">
-                    <img class="pics" src="/assets/imagens/equipe.png" alt="">
+  <section class="buttons-carda">
+    <h2 id="titu">Escolha o seu cardápio</h2>
+            <!-- 2-D Flip -->
+            <section class="page-container" id="flip">
+              <section class="section-container">
+            
+                <!-- Horizontal Flip -->
+                <div class="button-container button-flip-horizontal" id="bot1">
+                    <div class="flipper flipper-flip-horizontal">
+                        <div class="button front">
+                          <img src="assets/imagens/coxinha.png" alt="">
+                        </div>
+                        <div class="button back">
+                              <a href="/home.html">Tradicional</a>
+                              <ul class="cardaul">
+                                <li>Coxinhas</li>
+                                <li>Bolinha de queijo</li>
+                                <li>Batata frita</li>
+                                <li>Pipoca</li>
+                                <li>Mini pastel(Queijo, Carne moida)</li>
+                                <li>Mini hambúrguer</li>
+                                <li>Mini cachorro quente</li>
+                                <li>Esondidinho</li>
+                                <li>Isca de frango</li>
+                                <li>Lanche de pernil</li>
+                                <li>Doces (brigadeiro, beijinho, bicho de pé, paçoca, ninho e óreo)</li>
+                              </ul>
+                        </div>
+                    </div>
                 </div>
-                <div class="menu">
-                    <img class="pics" src="/assets/imagens/equipe.png" alt="">
-                    <img class="pics" src="/assets/imagens/equipe.png" alt="">
-                    <img class="pics" src="/assets/imagens/equipe.png" alt="">
-                    <img class="pics" src="/assets/imagens/equipe.png" alt="">
+                <div class="button-container button-flip-horizontal">
+                    <div class="flipper flipper-flip-horizontal" id="bot2">
+                        <div class="button front">
+                          <img src="assets/imagens/pizza.png" alt="">
+                        </div>
+                        <div class="button back">
+                              <a href="/home.html">Pizzada</a>
+                              <ul class="cardaul">
+                                <li>Portuguesa</li>
+                                <li>4 queijos</li>
+                                <li>Atum</li>
+                                <li>Frango</li>
+                                <li>Rúcula c/ tomate seco</li>
+                                <li>Romeu e Julieta</li>
+                                <li>Banana nevada</li>
+                                <li>Nutella</li>
+                              </ul>
+                        </div>
+                    </div>
                 </div>
-                <div class="menu">
-                    <img class="pics" src="/assets/imagens/equipe.png" alt="">
-                    <img class="pics" src="/assets/imagens/equipe.png" alt="">
-                    <img class="pics" src="/assets/imagens/equipe.png" alt="">
-                    <img class="pics" src="/assets/imagens/equipe.png" alt="">
+                <div class="button-container button-flip-horizontal">
+                    <div class="flipper flipper-flip-horizontal" id="bot3">
+                        <div class="button front">
+                          <img src="assets/imagens/adicao.png" alt="">
+                        </div>
+                        <div class="button back">
+                              <a href="/home.html">À adicionar</a>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </section>
-    </main>
+
+
+  </section>
     <footer>
         <div>
             <div class="div-foot">
@@ -113,5 +144,7 @@
             <p>Desenvolvido por <a href="#">Giovani C. Luvizuto</a></p>
             </div>
         </div>
-    </footer></body>
+    </footer>
+  <script src="cardapio.js"></script>
+  </body>
 </html>

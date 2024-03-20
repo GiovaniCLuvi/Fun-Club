@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+ 
+ <nav>
+   <div class="menubar">
+     <a href="#0" class="home">LOGO</a>
+     <div class="icons">
+       <i class="icon-menu"><span></span></i>
+     </div>
+   </div>
+   <ul class="menu">
+      
+     <li class="menu-link"><a href="#0" class="text-item">Home</a></li>
+     <li class="menu-link"><a href="#0" class="text-item">Sobre Nós</a></li>
+     <li class="menu-link"><a href="#0" class="text-item">Cardápio</a></li>
+     <li class="menu-link"><a href="#0" class="text-item">Espaço</a></li>
+     <li class="menu-link"><a href="#0" class="text-item">Temas</a></li>
+     <li class="menu-link"><a href="#0" class="text-item">Fun em Casa</a></li>
+     <li class="menu-link sub">
+        <a href="#0" class="text-item">Contato<span class="icon"></span></a>
+        <ul class="submenu">
+          <li class="sub-item"><a href="#0">Contato</a></li>
+          <li class="sub-item"><a href="#0">Orçamento</a></li>
+        </ul>
+      </li>   </ul>
+ </nav>
+ 
+ <script src="scriptaa.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+  background-image: url(assets/imagens/back/back.jpg);
+  background-size: contain;
+  background-attachment: none;
+  height: 500px;
+  width: 99vw;
+  font-family: 'titulo';
+  font-weight: lighter;
+  font-style: normal;
+  text-decoration: none;
+  overflow-x: hidden;
+}
+
+header {
+  background-image: linear-gradient(to left, transparent 0%, #680f9f 120%), url(assets/imagens/back/back-head.jpg);
+  background-size: contain;
+  background-repeat: repeat;
+  height: 400px;
+  width: 99vw;
+  margin: -8px 0px 0px -8px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+nav {
+  background-color: #b5e418;
+  margin: -10px;
+}
+
+.bar {
+  text-decoration: none;
+  float: right;
+  font-size: 1.3em;
+  margin: 10px 30px 10px 10px;
+  color: black;
+  transition: all 0.1s ease;
+}
+
+.bar:hover{
+  background-color: #8eb50c;
+  padding: 10px;
+  margin: 0px 20px 0px 0px;
+  transform: scale(1.1);
+  z-index: 1;
+}

@@ -1,0 +1,86 @@
+.parce {
+    height: auto;
+    width: 99vw;
+    margin-left: -8px;
+    border: 0;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    text-align: center;
+    visibility: hidden;
+  }
+
+  .parce > * {
+    visibility: visible;
+    transition: opacity 200ms;
+  }
+
+  .parce:hover > :not(:hover) {
+    opacity: 0.75;
+}
+  
+  
+  #titparc {
+    background-color: #ffffff;
+    color: black;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    visibility: visible;
+  }
+  
+  .body-card {
+    width: 200px;
+    height: 300px;
+    font-size: 15px;
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 2px 2px 16px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    transition: all 0.2s ease;
+    flex-direction: column;
+    background-color: white;
+  }
+
+  .body-card > p {
+    margin: 0;
+  }
+  
+  .body-card img {
+    width: 100%;
+    height: 200px;
+  }
+  
+  .body-card:hover {
+    transform: scale(1.02);
+    z-index: 1;
+  }
+
+  .card-button{
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding: 3px 20px 7px 20px;
+    background-color: blue;
+    color: white;
+    z-index: 1;
+    transition: all 0.5s ease;
+    cursor: pointer;
+  }
+  
+  .card-button > button{
+    border: none;
+    background-color: rgba(0, 0, 255, 0);
+    color: white;
+    cursor: pointer;
+  }
+  
+  .card-button:hover {
+    background-color: white;
+  }
+  
+  .card-button:hover > button {
+    color: blue;
+  }

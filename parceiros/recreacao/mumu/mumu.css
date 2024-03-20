@@ -97,9 +97,12 @@ nav {
 
 h3 {
   margin-top: 150px;
-  color: green;
-  font-size: 2em;
-}
+  font-size: 50px;
+  color: black;
+  background-image: -webkit-linear-gradient(bottom, #4bb41a 80%, #215505);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
 
 #mot1 {
   margin-top: -80px;
@@ -128,9 +131,13 @@ h3 {
 #textimg {
   text-align: center;
   margin-bottom: 30px;
-  color: purple;
   font-size: 2em;
-}
+  color: black;
+  background-image: -webkit-linear-gradient(90deg, #410765 0%, #9f27c7 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: hue 60s infinite linear;
+  }
 
 #sec-contato > div > h3 {
   color: yellow;
