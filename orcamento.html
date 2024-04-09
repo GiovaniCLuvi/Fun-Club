@@ -6,91 +6,128 @@
 		<title>Contato - Barbearia Alura</title>
 
 		<link rel="stylesheet" href="orcamento.css">
+		  <style>
+		  ::-webkit-calendar-picker-indicator { display: none; }
+		  </style>
 	</head>
 	<body>
-		<main id="a">
+		<header>
+			<nav>
+				<nav id="linha">
+				<a href="/home.html"><img src="/assets/imagens/logo.png" alt="" id="logo"></a>
+				<a href="contato.html" class="bar">Contato</a>
+				<a href="emcasa.html" class="bar">Fun em casa</a>
+				<a href="tema.html" class="bar">Temas</a>
+				<a href="espaco.html" class="bar">Espaço</a>
+				<a href="cardapio.html" class="bar">Cardápio</a>
+				<a href="sobre.html" class="bar">Sobre Nós</a>
+				<a href="home.html" class="bar">Home</a>
+			</nav>
+				<nav id="burguer">
+				<div class="menubar">
+					<div id="logob">
+					<a href="/home.html"><img src="/assets/imagens/logo.png" alt="" id="logo"></a></div>
+					<div class="icons">
+					  <i class="icon-menu"><span></span></i>
+					</div>
+				  </div>
+				  <ul class="menu">
+					 
+					<li class="menu-link"><a href="home.html" class="text-item">Home</a></li>
+					<li class="menu-link"><a href="sobre.html" class="text-item">Sobre Nós</a></li>
+					<li class="menu-link"><a href="cardapio.html" class="text-item">Cardápio</a></li>
+					<li class="menu-link"><a href="espaco.html" class="text-item">Espaço</a></li>
+					<li class="menu-link"><a href="tema.html" class="text-item">Temas</a></li>
+					<li class="menu-link"><a href="emcasa.html" class="text-item">Fun em Casa</a></li>
+					<li class="menu-link sub">
+					   <a href="#0" class="text-item">Contato<span class="icon"></span></a>
+					   <ul class="submenu">
+						 <li class="sub-item"><a href="contato.html">Contato</a></li>
+						 <li class="sub-item"><a href="orcamento.html">Orçamento</a></li>
+					   </ul>
+					 </li>   </ul>
+					</nav>
+			</nav>
+		</header>
+
+
+
+
+		<main id="info-pes">
+			<h2>Informações Pessoais</h2>
 			<form id="nte">
-			<label for="nomesobrenome">Nome Completo</label>
-			<input type="text" id="nome" class="input-padrao" required>
-			<div class="label-te">
-			<label for="telefone" id="tele">Telefone/Whatsapp</label>
-			<label for="email" id="ema">Email</label>
-		</div>
-			<div class="t-e">
-			<input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">			
-			
-			<input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+				<div class="input-group" id="nome">
+					<input required="" type="text"autocomplete="off" class="input" id="inome">
+					<label class="user-label">Nome Completo</label>
+		  		</div>
+				<div class="input-group" id="tel">
+					<input required="" type="number" name="telefone" autocomplete="on" class="input" id="itel">
+					<label class="user-label">Número de celular</label>
+		  		</div>
+				<div class="input-group" id="emailll">
+					<input required="" type="email" class="input" required id="email">
+					<label class="user-label" id="e-label">Email</label>
 		</form>
 		</main>
-		<main>
-			<form>
-
-
-				
-				<fieldset>
-					<legend>Como prefere o nosso contato?</legend>
-					<label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> Email</label>
-					
-					<label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone</label>
-					
-					<label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> WhatsApp</label>
-				</fieldset>
-				
-				<input type="time" min="00:00" max="24:00">
-				<div class="flex__child read-only">
-					<div>
-						<input type="time" value="13:45" readonly>
-					</div>
+		<main id="info-evento">
+			<h2>Informações do Evento</h2>
+			<form id="resto">
+				<div id="d-i">
+					<p>Data do Evento</p>
+					<input type="date" id="tm">
 				</div>
-				<input type="date">
-				<input type="date">
-				<input type="number">
-				<input type="number">
-		  
 
-				<fieldset>
-					<legend>Cardápio</legend>
-					<select>
-						<option>Tradicional</option>
-						<option>Pizzada</option>
-						<option>Adicionais</option>
-					</select>
-				</fieldset>
-				
-				<label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
-				
-				<label for="mensagem">Mensagem</label>
-				<textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
-				<input type="submit" value="Enviar formulário" class="enviar">
+				<div id="h-i">
+					<p>Horário do Evento</p>
+					<input type="time" min="00:00" max="24:00" id="tm">
+				</div>
+
+				<div id="carda">
+					<p>Cardápio</p>
+						<select class="tmm">
+							<option>Tradicional</option>
+							<option>Pizzada</option>
+							<option>Adicionais</option>
+						</select>
+				</div>
+
+				<div id="tema">
+					<p>Tema</p>
+						<select class="tmm">
+							<option>15 anos</option>
+							<option>Pizzada</option>
+							<option>Adicionais</option>
+						</select>
+				</div>
+
+				<div id="n-a">
+					<p>Número de Adultos</p>
+					<input type="number" id="tm">
+				</div>
+
+				<div id="n-c">
+					<p>Número de crianças</p>
+					<input type="number" id="tm">
+				</div>
+
+				<div id="di-obs">
+					<p>Observações</p>
+					<textarea cols="70" rows="10" class="input-padrao" required id="obs" class="tmm"></textarea>
+				</div>
+				<div id="envio1">
+				<input type="submit" value="Enviar formulário" class="enviar">				
+</div>
 			</form>
 
-			<table>
-				<thead>
-					<tr>
-						<th>Dia</th>
-						<th>Horário</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td>Segunda</td>
-						<td>8h ~ 20h</td>
-					</tr>
-					<tr>
-						<td>Quarta</td>
-						<td>8h ~ 20h</td>
-					</tr>
-					<tr>
-						<td>Sexta</td>
-						<td>8h ~ 20h</td>
-					</tr>
-				</tbody>
-			</table>
+				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<a href="https://contate.me/fun-club" style="position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
+  z-index:1000;" target="_blank">
+<i style="margin-top:16px" class="fa fa-whatsapp"></i>
+</a>
 		</main>
 
 		<footer>
-			<img src="https://i.postimg.cc/Cx50B1c5/logo-branco.png" alt="Logo da Barbearia Alura">
-			<p class="copyright">&copy; Copyright Barbearia Alura - 2019</p>
+
 		</footer>
 	</body>
 </html>

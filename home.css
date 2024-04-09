@@ -22,6 +22,11 @@ body {
   overflow-x: hidden;
 }
 
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
 header {
   background-image: linear-gradient(to left, transparent 0%, #680f9f 120%), url(assets/imagens/back/back-head.jpg);
   background-size: contain;
@@ -39,6 +44,7 @@ a {
 nav {
   background-color: #b5e418;
   margin: -10px;
+  padding-top: 10px;
 }
 
 .bar {
@@ -391,18 +397,6 @@ a {
   }
   
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 #logo {
@@ -822,7 +816,7 @@ a {
   transition: 1.5s;
 }
 .slide img{
-  width: auto;
+  width: 200px;
 }
 
 .aaa {
@@ -834,6 +828,7 @@ a {
 
 .aaa > img {
   clip-path: circle(50%);
+
 }
 
 .text-img{
@@ -1063,14 +1058,16 @@ footer a:hover {
 .icon-foot {
   display: inline-flex;
   margin-bottom: 10px;
+  align-items: center;
 }
 
 .icon-foot > a {
   width: 130px;
+  margin-left: 10px;
 }
 
 .icon-foot > img {
-  width: 50px;
+  width: 40px;
   margin-left: -14px;
 }
 
@@ -1227,8 +1224,12 @@ iframe {
 }
 
 @media (max-width: 550px) {
+  footer {
+    padding-right: 0px;
+  }
   .icon-foot > img {
     margin-left: 0px;
+    width: 30px;
     justify-content: start;
     float: left;
   }
